@@ -3,8 +3,8 @@ package bot
 import (
 	"errors"
 
-	"github.com/indes/telepush/internal/config"
-	_ "github.com/indes/telepush/internal/log"
+	"github.com/lwd-temp/telepush/internal/config"
+	_ "github.com/lwd-temp/telepush/internal/log"
 	"go.uber.org/zap"
 	tb "gopkg.in/tucnak/telebot.v2"
 )
