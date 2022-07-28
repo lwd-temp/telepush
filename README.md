@@ -4,7 +4,7 @@ Vercel Telegram 消息推送机器人
 
 ## 一键部署
 
-<a href="https://vercel.com/new/project?template=https://github.com/indes/telepush"><img src="https://vercel.com/button"></a>
+<a href="https://vercel.com/new/project?template=https://github.com/lwd-temp/telepush"><img src="https://vercel.com/button"></a>
 
 ### 环境变量设置
 在项目设置中添加`telegram_bot_token`和`api_token`环境变量，如图下图所示（将xxxx换成你的telegram bot token）

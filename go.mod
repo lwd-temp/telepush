@@ -1,4 +1,4 @@
-module github.com/indes/telepush
+module github.com/lwd-temp/telepush
 
 go 1.16
 
