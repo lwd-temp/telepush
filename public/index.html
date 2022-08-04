@@ -1,14 +1,27 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TelePush</title>
 </head>
+
 <body>
-<h1>:)</h1>
-I am TelePush!
+    <h1>:)</h1>
+    <p>I am TelePush!</p>
+    <h2>Source</h2>
+    <a href="https://github.com/lwd-temp/telepush">lwd-temp/telepush</a>
+    <h2>Usage</h2>
+    <p>
+        <code id="curl">curl -X GET http://your_url/api/notify?u=telegram_user_id&m=your_message&t=api_token</code>
+    </p>
+    <script>
+        var curl = document.getElementById('curl');
+        curl.innerHTML = curl.innerHTML.replace(/your_url/g, window.location.host);
+    </script>
 </body>
+
 </html>
