@@ -11,7 +11,7 @@ import (
 
 func Handler(w http.ResponseWriter, r *http.Request) {
 	params := r.URL.Query()
-	userId, _ := strconv.Atoi(params.Get("u"))
+	userId := config.ReceiverID
 	msg := params.Get("m")
 	token := params.Get("t")
 
